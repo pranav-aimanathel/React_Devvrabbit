@@ -1,0 +1,70 @@
+.aboutHomeImg {
+    margin-top: 300px;
+}
+
+.customFlex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutCard {
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.aboutCardHead {
+    color: #9151E4;
+    font-family: Readex Pro, sans-serif;
+    font-size: 50px;
+}
+
+.aboutCardTxt {
+    text-align: center;
+}
+
+.aboutCardPara {
+    font-size: 16px;
+    font-family: Readex Pro, sans-serif;
+}
+
+#teamHead {
+    font-family: Readex Pro, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.teamArrange {
+    margin-bottom: 50px;
+}
+
+.contactDiv {
+    padding: 100px 0px;
+    text-align: center;
+    background-color: #320972;
+}
+
+.contactBtn {
+    background-color: white;
+    color: #320972;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+}
+
+.contactTxt {
+    color: white;
+    font-family: Readex pro, sans-serif;
+    font-size: 25px;
+}
+
+@media (max-width: 768px) {
+    .aboutHomeImg {
+        margin-top: 30px;
+    }
+    .customFlex {
+        flex-direction: column;
+    }
+}

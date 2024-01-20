@@ -1,0 +1,260 @@
+.fontReadex {
+    font-family:Readex pro, sans-serif;
+}
+
+.blueDiv {
+    background-color: #E0EBFF;
+}
+
+.bluDivMini{
+    background-color: #E0EBFF ;
+    margin: 50px 0px ;
+    padding: 50px 50px;
+}
+
+.headingHome {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.paraHome {
+    font-size: 20px;
+}
+
+.paraOthers {
+    font-size: 18px;
+    color: #40444C;
+}
+
+.paraSmaller {
+    font-size: 16px;
+    color: #40444C;
+}
+
+.btnHome {
+    background-color: #5D1EB4;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.btnTxt {
+    font-size: 16 px;
+    font-family: Readex pro, sans-serif;
+    padding: 12px 24px;
+}
+
+
+.txtContainer {
+    margin-top: 120px;
+    margin-bottom: 40px;
+    padding: 20px;
+
+}
+
+.imgContainer {
+    margin-top: 120px;
+    margin-bottom: 40px;
+    padding: 20px;
+} 
+
+.subHeading {
+    font-family: Readex Pro, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.subHeadingLeft {
+    font-family: Readex Pro, sans-serif;
+    text-align: left;
+    font-size: 40px;
+}
+
+.whiteDiv {
+    margin: 100px 0;
+}
+
+.readMore {
+    color: #5D1EB4;
+}
+
+#imageRow {
+    margin-bottom: 20px;
+}
+
+.carouselContainer {
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.carouselContent {
+    padding: 30px;
+}
+
+.carouselImage {
+    max-width: 90%;
+    height: 250px;
+    align-items: center;
+}
+
+.cardTitle  {
+    font-size: 25px;
+}
+
+.cardBg {
+    background-color: #F0F6FF;
+    border: none;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+#faqContainer {
+    width: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.faqTitleFont {
+    font-family:Readex pro, sans-serif;
+    font-size: 25px !important;
+    font-weight: 500 !important;
+}
+
+.faqContent {
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  
+  .testimonyCard {
+    flex: 1;
+    min-width: 350px; /* Adjust as needed */
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px !important;
+  }
+
+  #cardBorder {
+    border-bottom: 0.5px solid #cacaca;
+    padding-bottom: 20px;
+  }
+
+  .cardTestimony {
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+
+  }
+
+  #testim {
+    margin: 50px 0px;
+    padding: 100px 30px;
+  }
+
+  .flex-container {
+    display: flex;
+    border-bottom: 0.5px solid #cacaca;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px; /* Optional: Add padding for better appearance */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+  }
+  
+  .column p {
+    margin: 0; /* Remove default margin for paragraphs */
+  }
+
+  .link {
+    color: inherit;
+    text-decoration: none;
+    padding: 10px 0px;
+  }
+  .linkContact {
+    color: #5D1EB4;
+    text-decoration: none;
+    
+  }
+  .imageMargin {
+    margin-right: 30px;
+  }
+  .logoMargin {
+    margin-top: 10px;
+  }
+
+  .footerFont {
+    font-size: 14px;
+    color: #76777a;
+    font-weight: 100;
+  }
+
+  #footerLogoCol {
+    margin-right: 120px;
+  }
+
+  .footerContainer {
+    padding: 20px;
+    margin-bottom: 40px;
+    
+  }
+
+  .copyrightFlex {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    margin-bottom: 50px;
+  }
+
+  .copyrightFont {
+    font-size: 14px;
+    color: #87888a;
+  }
+
+  .customLogo {
+    max-width: 70px;
+    padding: 15px;
+  }
+
+  .readArrow {
+    font-family: Readex Pro, sans-serif;
+    color: #5D1EB4;
+    text-decoration: none;
+  }
+
+  .quoteLogo {
+    width: 70px;
+    height: 70px;
+  }
+
+  @media (max-width: 768px) {
+    .imgContainer{
+      margin-top: 30px;
+    }
+    #faqContainer {
+        width: 100%;
+    }
+    .flex-container {
+      flex-direction: column;
+    }
+    .flex-md-row.flex-column {
+      flex-direction: column;
+    }
+    .logoMargin {
+      margin-top: 20px;
+    }
+}
+  

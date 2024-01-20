@@ -1,0 +1,9 @@
+const faqData = [
+    {title: 'So what does DevRabbit do?', description: 'Founded in 2016, DevRabbit provides leading design and development services for Mobile Apps.We help small companies, medium companies, large companies, huge companies, and individual entrepreneurs realize their ideas for Mobile Apps and get them to the market quickly and efficiently.'},
+    {title: 'Do I need to work with a professional app development company?', description: 'You will encounter a wide variety of app development rates and prices points during your investigation.When hiring an app development company, Price is not THE ONLY Criteria. professional app development company will bring in more than just development.They will contribute and enrich your business requirements to make best.'},
+    {title: 'How much does it cost to build an App?', description: 'In the past two years, the app market has exploded. In under 9 months the Apple store reported over a billion downloads, and then doubled that number in half the time. The app craze has spread to Android, Blackberry, and every other mobile market under the sun. App cost will determine type of app, complexity of the app and number of features or functions etc.We can build simple app as little as $5000.For Database driven dynamic app (native) may need budget range of $8000- $25,000.Games can be $8000- $50,000 range depending on game levels and complexity.' },
+    {title: 'How long does it take to have an app developed?', description: 'Typical app will take 6-8 weeks. Based on complexity it may stretch to 6 months.'},
+    {title: 'Do you help get the app submitted to the Apple/Android Stores?', description: 'YES, we will take extended responsibility and support of App store submission and approval process at free of cost.'}
+ ]
+
+ export default faqData;
